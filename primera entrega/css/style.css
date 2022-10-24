@@ -1,0 +1,167 @@
+.carrito img{
+    
+    border-radius: 50%;
+}
+.carrito{
+
+    display: flex;
+    justify-content: center;
+
+}
+.carritotexto strong a{
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    color: rgb(255, 255, 255);
+}
+
+
+.emp{ 
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.publicidad{
+   
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+.logo{ 
+    display: flex;
+    justify-content: center;
+}
+
+
+body{
+
+    background-image: url("../images/Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}    
+
+
+header ul{
+    list-style-type: none;
+    text-align: center;
+   
+
+    
+
+}
+
+header ul li{
+    background-color:black;
+    border:#D7C8B6 2px solid;
+   display: inline-block;
+    margin-right: 10px;
+}
+
+header ul li a{
+    
+    padding: 1px 4px;
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+ }
+
+
+header p{ 
+    font-style: italic;
+   
+    
+}
+
+footer{
+    text-align: center;
+    font-style: italic; 
+ }
+h4{
+    
+    font-style: italic;
+}
+
+
+h2{
+    color: black;
+}
+
+
+main section{
+
+    
+    display:flex;
+    flex-direction: row;
+    font-style: normal;
+    
+}
+
+main section a{
+    color: black;
+}
+main section figure{
+
+    margin: 0px 0px 0px 2%;
+    border-radius: 3%;
+    box-shadow: 0 0 3px #000000;
+    padding: 0%;
+    background-color: #0e0e0e7a;
+    border-radius: 5%;
+
+
+}
+
+p a{
+
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    box-shadow: 0 0 5px #000000;
+    background-color: black;
+    
+}
+article p{
+     text-align: center;
+     
+
+
+}
+form{
+    box-shadow: 0 0 5px #000000;
+    background-color: rgba(0, 0, 0, 0.158); 
+    height: 300px;
+    width: 600px;
+    text-align: center;
+    margin: 4% 0px 0px 32%;
+    border-radius: 5%;
+    padding: 2%;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+form h2{
+
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
+}
+
+form input{
+
+
+    font-family: 'Cinzel', serif;
+    font-weight: 100;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 3%;
+    
+    
+
+}
