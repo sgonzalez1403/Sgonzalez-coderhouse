@@ -1,20 +1,19 @@
-<<<<<<< HEAD
-div iframe{
+body{
 
-display: flex;
-justify-items: left;
-
+    background-image: url("../images/fondo.jpg");
+    background-repeat: round;
+    background-position: center;
+    
 }
 
 
 
 
 
-=======
 
 
 
 
 
 
->>>>>>> eb2220ccb4e73372d3d7b2bda476e7a99ad2fa0c
+
