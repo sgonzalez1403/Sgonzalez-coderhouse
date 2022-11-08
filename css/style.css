@@ -1,0 +1,18 @@
+@import url("");
+main figure {
+  text-align: center;
+}
+main figure img {
+  margin: 0px 0px 0px 2%;
+  border-radius: 3%;
+  box-shadow: 0 0 3px #000000;
+  padding: 1%;
+  background-color: rgba(14, 14, 14, 0.2588235294);
+  height: 50%;
+  width: 50%;
+}
+main figure p {
+  font-size: larger;
+}
+
+/*# sourceMappingURL=style.css.map */
