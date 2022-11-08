@@ -1,4 +1,3 @@
-@import url("");
 main figure {
   text-align: center;
 }
@@ -11,8 +10,10 @@ main figure img {
   height: 50%;
   width: 50%;
 }
-main figure p {
+main figure figcaption p {
   font-size: larger;
+  text-decoration: underline;
+  text-decoration: solid;
 }
 
 /*# sourceMappingURL=style.css.map */
