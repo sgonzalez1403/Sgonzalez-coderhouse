@@ -42,3 +42,9 @@ body {
   background-size: cover;
 
 }
+
+.bg2{
+
+  background-image: url(../images/logo-login.jpg);
+  background-size: cover;
+}
