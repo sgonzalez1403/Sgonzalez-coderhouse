@@ -22,12 +22,6 @@ body {
   animation: gradient 15s ease infinite;
   height: 100vh;
 }
-body main {
-  font-style: oblique;
-}
-body footer {
-  font-style: oblique;
-}
 
 @keyframes gradient {
   0% {
@@ -41,4 +35,10 @@ body footer {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+
+
+.bg{
+  background-image: url(../images/Intel-publi.jpg);
+  background-size: cover;
+
+}
