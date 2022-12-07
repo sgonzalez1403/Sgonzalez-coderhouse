@@ -1,19 +1,21 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <title>Login</title>
-    <link rel="stylesheet" href="bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <style>@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;600&family=Source+Sans+Pro:ital@1&display=swap');</style>
-    <script src="https://kit.fontawesome.com/d268110021.js" crossorigin="anonymous"></script>
-    <style>
-        
-    </style>
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabaja con nosoros</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <script src="js/bootstrap.bundle.js"></script>
+    <link rel="shortcut icon" href="images/logo.png">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap">
+    <meta name="description" content="tarjetas gráficas procesadores prebuilts celulares"> 
+    <meta name="keywords" content="Intel Nvidia AMD">
+     
+</head>
+
+<body class="work-with-us">
     <header>
         <!-- Navbar-->
         <nav class="navbar navbar-expand-lg navbar navbar-light" style="background-color:rgba(0, 0, 0, 0) ;">
@@ -30,6 +32,9 @@
                   <li class="nav-item">
                     <a class="nav-link active" href="#pie">Nosotros</a>
                   </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="login.html"> Iniciar sesión</a>
+                  </li>
                 </ul>
                 <form class="d-flex">
                   <input class="input form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
@@ -39,87 +44,80 @@
             </div>
             </nav>
           </header>
+
+          
+          <section>
+            <div class="box">
+                <h3>Lista de empleados</h3>
+                <div class="list">
+                    <div class="imgbx">
+                        <img src="images/emp1.jpg" alt="CEO">
+                    </div>
+                    <div class="content">
+                        <h2 class="rank"> <small>#</small>1</h2>
+                        <h4>Santiago Gonzalez</h4>
+                        <p> CEO/Founder</p>
+                    </div>
+                </div>
+                <div class="list">
+                    <div class="imgbx">
+                        <img src="images/emp4.jpg" alt="CFO">
+                    </div>
+                    <div class="content">
+                        <h2 class="rank"> <small>#</small>2</h2>
+                        <h4>Agustin Perez</h4>
+                        <p>CFO/Co-founder</p>
+                    </div>
+                </div>
+                <div class="list">
+                    <div class="imgbx">
+                        <img src="images/Emp5.jpg" alt="Head operations">
+                    </div>
+                    <div class="content">
+                        <h2 class="rank"> <small>#</small>3</h2>
+                        <h4>Micaela Ramirez</h4>
+                        <p> Head of operations </p>
+                    </div>
+                </div>
+                <div class="list">
+                    <div class="imgbx">
+                        <img src="images/emp6.jpg" alt="COO">
+                    </div>
+                    <div class="content">
+                        <h2 class="rank"> <small>#</small>4</h2>
+                        <h4>Ramon Diaz</h4>
+                        <p> COO</p>
+                    </div>
+                </div>
+                <div class="list">
+                    <div class="imgbx">
+                        <img src="images/emp7.jpg" alt="Head developer">
+                    </div>
+                    <div class="content">
+                        <h2 class="rank"> <small>#</small>5</h2>
+                        <h4>Malena Perez</h4>
+                        <p> Head Developer </p>
+                    </div>
+                </div>
+                <div class="list">
+                    <div class="imgbx">
+                        <img src="images/emp8.jpg" alt="Backoffice leader">
+                    </div>
+                    <div class="content">
+                        <h2 class="rank"> <small>#</small>6</h2>
+                        <h4>Monica Rodriguez</h4>
+                        <p>Backoffice Leader </p>
+                    </div>
+                </div>
+
+            </div>
+          </section>
+
           
    
 
-    <div class="container w-75 mt-5 rounded" style="background-color: white;">
-        <div class="row align-items-stretch">
-            <div class="col bg d-none d-lg-block col-md-5 col-lg-5 col-xl-6 rounded">
-
-            </div>
-            <div class="col p-5 rounded-end">
-                <div class="text-end">
-                    <img class="logo2" src="images/logo.png" alt="logo">
-                </div>
-                <h2 class="text-center fw-bold py-5">Inicia sesión</h2>
-                <!-- Login-->
-                <form action="#">
-                    <div class="mb-4">
-                        <label for="email" class="form-label"> Correo electronico</label>
-                        <input type="email" class="form-control" name="email">
-                    </div>
-                    <div class="mb-4">
-                        <label for="email" class="form-label"> Password</label>
-                        <input type="password" class="form-control passw" name="password">
-                    </div>
-                    <div class="mb-4 form-check">
-                        <input type="checkbox" name="connected" class="form-check-input">
-                        <label for="connected" class="form-check-label"> Mantenerme conectado</label>
-                    </div>
-
-                    <div class="d-grid">
-                        <button type="submit" class="btn btn-primary"> Iniciar sesión</button>
-                    </div>
-                    <div class="my-3">
-                        <span>¿No tienes cuenta?</span>
-                        <br>
-                        <a href="register.html">Registrate acá</a>
-                        <br>
-                        <span><a href="Index.html">Recuperar Password</a></span>
-                    </div>
-                </form>
-
-                <!-- Login con redes sociaales-->
-                <div class="contanier w-100 my-5">
-                    <div class="row text-center">
-                        <div class="col-12">Iniciar sesión con</div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <button class="btn btn-outline-primary w-10 my-1">
-                                <div class="row align-itmes-center">
-                                    <div class="col-2 d-none d-md-block">
-                                        <img src="images/Facebook_f_logo_(2019).svg.png" width="100%" height="100%" alt="Logo de facebook">
-                                        
-                                    </div>
-                                    <div class="col-12 col-md-10 text-center">
-                                        <strong>Facebook</strong>
-                                    </div>
-                                </div>
-                            </button>
-                        </div>
-                        <div class="col">
-                            <button class="btn btn-outline-danger w-10 my-1">
-                                <div class="row align-itmes-center">
-                                    <div class="col-2 d-none d-md-block">
-                                        <img src="images/2000px-Google_G_Logo.svg_.png" width="100%" height="100%" alt="Logo de facebook">
-                                        
-                                    </div>
-                                    <div class="col-12 col-md-10 text-center">
-                                        <strong>Google</strong>
-                                    </div>
-                                </div>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <br>
-    <br>
-    <br>
-    <br>
+    
+ 
     
     <footer id="pie">
         <div>
@@ -177,3 +175,8 @@
    
   </body>
 </html>
+  
+ 
+  
+
+      
