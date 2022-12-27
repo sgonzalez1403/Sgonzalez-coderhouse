@@ -23,7 +23,7 @@ do {
 function tarjetasGraficas() {
   let acumulador = 0;
   alert("Seleccione su tarjeta gráfica");
-  let tipo = prompt("Ingrese el modelo de tarjeta gráfica que desea utilizar \n\n 1-RTX3070 \n\n  2-RTX3060 \n\n  3-RTX3050 \n\n  4-GTX1660");
+  let tipo = prompt("Ingrese el modelo de tarjeta gráfica que desea utilizar \n\n 1-RTX3070 \n\n  2-RTX3060 \n\n  3-RTX3050 \n\n  4-GTX1660 \n\n 5-Salir");
   tipo = parseInt(tipo);
 
   switch (tipo) {
@@ -41,6 +41,7 @@ function tarjetasGraficas() {
     case 4:
       acumulador = 150000;
       break;
+      case 5: alert ("Saliendo")
     default:
       alert("opción invalida");
   }
@@ -52,7 +53,7 @@ function placasMadre(){
 
   let acumulador = 0;
   alert("Seleccione su placa madre");
-  let tipo = prompt("Ingrese el modelo de Placa madre que desea utilizar \n\n  1-Asus A320M-K \n\n  2-Gigabyte GA-A320M-H \n\n  3-ASUS PRO A320M-R WI-FI/CSM");
+  let tipo = prompt("Ingrese el modelo de Placa madre que desea utilizar \n\n  1-Asus A320M-K \n\n  2-Gigabyte GA-A320M-H \n\n  3-ASUS PRO A320M-R WI-FI/CSM \n\n 4-salir");
   tipo = parseInt(tipo);
 
   switch (tipo) {
@@ -67,7 +68,9 @@ function placasMadre(){
     case 3:
       acumulador = 25000;
       break;
-  
+
+    case 4: alert ("Saliendo")
+      
     default:
       alert("opción invalida");
   }
@@ -81,7 +84,7 @@ function Procesadores(){
 
   let acumulador = 0;
   alert("Seleccione su procesador");
-  let tipo = prompt("Ingrese el procesador que desea utilizar \n\n  1-Ryzen 3 \n\n  2-Ryzen 5 \n\n  3-Ryzen 7");
+  let tipo = prompt("Ingrese el procesador que desea utilizar \n\n  1-Ryzen 3 \n\n  2-Ryzen 5 \n\n  3-Ryzen 7 \n\n 4-Salir");
   tipo = parseInt(tipo);
 
   switch (tipo) {
@@ -96,7 +99,9 @@ function Procesadores(){
     case 3:
       acumulador = 60000;
       break;
-  
+
+    case 4: alert ("Saliendo")
+
     default:
       alert("opción invalida");
   }
@@ -106,7 +111,7 @@ function Ram(){
 
   let acumulador = 0;
   alert("Seleccione cantidad de ram");
-  let tipo = prompt("Ingrese la cantidad de ram que desea utilizar \n\n  1-16gb \n\n  2-32GB \n\n  3-64GB");
+  let tipo = prompt("Ingrese la cantidad de ram que desea utilizar \n\n  1-16gb \n\n  2-32GB \n\n  3-64GB \n\n 4-Salir");
   tipo = parseInt(tipo);
 
   switch (tipo) {
@@ -121,6 +126,8 @@ function Ram(){
     case 3:
       acumulador = 60000;
       break;
+
+    case 4: alert ("Saliendo")
   
     default:
       alert("opción invalida");
