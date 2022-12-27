@@ -81,7 +81,7 @@ function Procesadores(){
 
   let acumulador = 0;
   alert("Seleccione su procesador");
-  let tipo = prompt("Ingrese el modelo de tarjeta gráfica que desea utilizar \n\n  1-Ryzen 3 \n\n  2-Ryzen 5 \n\n  3-Ryzen 7");
+  let tipo = prompt("Ingrese el procesador que desea utilizar \n\n  1-Ryzen 3 \n\n  2-Ryzen 5 \n\n  3-Ryzen 7");
   tipo = parseInt(tipo);
 
   switch (tipo) {
