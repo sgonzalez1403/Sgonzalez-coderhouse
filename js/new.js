@@ -14,8 +14,7 @@ do {
       total= 0
       break;
       case 3: alert ("Saliendo")
-    default:
-      alert("opción invalida");
+      break
   }
 } while (menu != 3);
 }
@@ -42,8 +41,7 @@ function tarjetasGraficas() {
       acumulador = 150000;
       break;
       case 5: alert ("Saliendo")
-    default:
-      alert("opción invalida");
+    
   }
   return acumulador
 }
@@ -71,8 +69,7 @@ function placasMadre(){
 
     case 4: alert ("Saliendo")
       
-    default:
-      alert("opción invalida");
+   
   }
   return acumulador
 
@@ -102,8 +99,7 @@ function Procesadores(){
 
     case 4: alert ("Saliendo")
 
-    default:
-      alert("opción invalida");
+   
   }
   return acumulador
 }
@@ -129,8 +125,7 @@ function Ram(){
 
     case 4: alert ("Saliendo")
   
-    default:
-      alert("opción invalida");
+    
   }
   return acumulador
 }
